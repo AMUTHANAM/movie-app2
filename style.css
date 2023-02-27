@@ -1,0 +1,32 @@
+.navbarcolor{
+    background-color: #1fc2ce !important;
+
+}
+
+body{
+    background-color: #6410da;
+}
+
+.overview{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    opacity: 0;
+}
+.movie:hover .overview{
+    opacity: 1;
+    background-color: rgb(239, 9, 208) !important;
+    transition: opacity 0.9s ease-in-out;
+}
+img{
+    height: 300px;
+}
+
+#text{
+    height: 120px;
+}
+ 
+
+ /* 80dc9522aa5f18f06b8b731da9852bee */
+
+ https://api.themoviedb.org/3/movie/550?api_key=80dc9522aa5f18f06b8b731da9852bee
